@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Author: Bonnie Liu
+    Email:yueying_liu@student.uml.edu
+    Student_id: 01661781
+    Assigenment9: Implementing a Bit of Scrabble with Drag-and-Drop
+ -->
+    <meta charset="utf-8">
+    <title>hw9</title>
+    <link href="https://code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+        <!-- scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="pieces.json"></script>
+	<link rel="stylesheet" href="css/style.css">
+    <script src="js/myFunc.js"></script>
+</head>
+<body>
+    <!--head for the web-->
+    <h1>One line scrabble</h1>
+    <!--board holder place-->
+	<div id="board"></div>
+	<!--piece holder-->
+	<div id="pieceHolder"></div>
+    <!--bottom and score-->
+	<div id="bottom">
+		<button class="ui-button ui-widget ui-corner-all myButtom" id="check">Check words</button>
+		<button class="ui-button ui-widget ui-corner-all myButtom" id="nextRound">Next round</button>
+        <button class="ui-button ui-widget ui-corner-all myButtom" id="new">New game</button>
+        <div id="s">Total Score: <span id="Score">0</span></div>
+	</div>
+</body>
+</html>

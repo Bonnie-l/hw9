@@ -1,0 +1,74 @@
+/*Author: Bonnie Liu
+Email:yueying_liu@student.uml.edu
+Student_id: 01661781
+ */
+
+/*background color yellow*/
+body{
+    background-color: lightyellow;
+}
+h1{
+    text-align:center;
+}
+#board{
+	width: 950px;
+	height:50px;
+	margin: 0 auto;	
+}
+
+#pieceHolder{
+	width:600px;
+	height:120px;
+	margin: 50px auto;	
+	background: url('../images/tile-holder.png') 100% 100% no-repeat;
+	background-size: cover;
+	text-align:center;
+}
+
+.letter{
+	width:50px;
+	padding:10px;
+}
+.boardPart{
+	width:55px;
+	padding:0px;
+	border: 3px solid black;
+}
+/*When there is a letter placed onto board, the border become red, otherwise it is black*/
+.hover{
+	border: 3px solid red;
+}
+
+.active{
+	border: 3px solid black;
+}
+
+.normal{
+	border: 3px solid black;
+}
+
+#bottom{
+	width:600px;
+	height:120px;
+	margin: 50px auto;	
+	text-align:center;
+}
+
+.myButtom{
+	width:150px;
+	min-height:30px;
+}
+#s{
+    padding:15px;
+    text-align:center;
+    border: 1px solid black;
+    margin-top:10px;
+}
+#draggable {
+    font-size: x-large;
+    border: thin solid black;
+    width: 5em;
+    text-align: center;
+    padding:10px
+    
+};
