@@ -1,6 +1,7 @@
 /*Author: Bonnie Liu
 Email:yueying_liu@student.uml.edu
 Student_id: 01661781
+Learning source for drag and drop: https://www.elated.com/drag-and-drop-with-jquery-your-essential-guide/
  */
 const numberLetters=7;
 const DOUBLE_WORD=2;
