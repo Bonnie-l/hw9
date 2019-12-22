@@ -195,7 +195,7 @@ function checkWords(){
 		for(i=0;i<nWords;i++)
 		{
 			expr=new RegExp('(^|\\s)' + words[i] + '(?=\\s|$)', 'g');
-			if(re.test(data)==0)
+			if(!word)
 				alert(words[i]+" did not exist in the dictionary");
 		}
 	});
