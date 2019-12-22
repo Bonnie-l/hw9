@@ -194,8 +194,9 @@ function checkWords(){
 	jQuery.get('usr/share/dict/words', function(data) {
 		for(i=0;i<nWords;i++)
 		{
+			//source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 			expr=new RegExp('(^|\\s)' + words[i] + '(?=\\s|$)', 'g');
-			if(!word)
+			if(!words)
 				alert(words[i]+" did not exist in the dictionary");
 		}
 	});
