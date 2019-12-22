@@ -190,7 +190,7 @@ function checkWords(){
 		  
 		}
 	//read file:
-	jQuery.get('dict/words.txt', function(data) {
+	jQuery.get('usr/share/dict/words', function(data) {
 		for(i=0;i<nWords;i++)
 		{
 			expr=new RegExp('(^|\\s)' + words[i] + '(?=\\s|$)', 'g');
